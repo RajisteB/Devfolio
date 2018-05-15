@@ -136,8 +136,10 @@ section {
 .tools {
   background: orange; }
 
-.case-odd h3, .case-even h3 {
-  line-height: 30px; }
+.case-odd, .case-even {
+  padding: 10px; }
+  .case-odd h3, .case-even h3 {
+    line-height: 30px; }
 
 .case-odd {
   display: flex;
@@ -272,7 +274,7 @@ section {
     justify-content: center; } }
 @media (min-width: 650px) {
   section {
-    height: 80vh; }
+    height: 85vh; }
 
   #about-section {
     height: 40vh; } }
