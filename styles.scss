@@ -159,6 +159,7 @@ section {
 }
 .tools { background: orange; }
 .case-odd, .case-even {
+  padding: 10px;
   h3 {
     line-height: 30px;
   }
@@ -244,7 +245,7 @@ section {
 }
 #mockup-section_3 {
   height: 90%;
-  background-image: url('images/Imac-Right-Stretto.png');
+  background-image: url('images/Imac-Right-Beats.png');
 }
 #works-section_4 {
   background-image: url('https://images.pexels.com/photos/812628/pexels-photo-812628.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -311,7 +312,7 @@ section {
 }
 @media (min-width: 650px) {
   section {
-    height: 80vh;
+    height: 85vh;
   }
   #about-section {
     height: 40vh;
